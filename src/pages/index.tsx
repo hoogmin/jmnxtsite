@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Script from 'next/script'
 import { Inconsolata } from 'next/font/google'
 import hljs from 'highlight.js'
 import rs from 'highlight.js/lib/languages/rust'
