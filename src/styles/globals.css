@@ -26,4 +26,12 @@ a {
 
 code {
   border-radius: 5px;
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+  code {
+    border-radius: 5px;
+    font-size: 3vw;
+  }
 }
