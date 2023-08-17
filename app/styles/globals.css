@@ -4,7 +4,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-color: #FFF;
+  --foreground-color: #000;
 }
 
 html,
@@ -15,23 +15,11 @@ body {
 }
 
 body {
-  color: var(--foreground-color, #FFF);
-  background: linear-gradient(112.1deg, rgb(0, 0, 0) 11.4%, rgb(20, 20, 20) 70.2%);
+  color: var(--foreground-color, #000);
+  background: linear-gradient(112.1deg, rgb(255, 255, 255) 11.4%, rgb(235, 235, 235) 70.2%);
 }
 
 a {
   color: #08b305;
   text-decoration: underline;
-}
-
-code {
-  border-radius: 5px;
-  font-size: 1vw;
-}
-
-@media only screen and (max-width: 600px) {
-  code {
-    border-radius: 5px;
-    font-size: 2vw;
-  }
 }

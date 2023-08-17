@@ -1,41 +1,25 @@
-import Head from 'next/head'
+import { Metadata } from 'next'
 import Image from 'next/image'
 import { Inconsolata } from 'next/font/google'
-import hljs from 'highlight.js'
-import rs from 'highlight.js/lib/languages/rust'
-import { useEffect } from 'react'
 import styles from '@/styles/Home.module.css'
 
 const inconsolata = Inconsolata({ subsets: ["latin"], weight: "400", style: "normal" })
 
-// Without this config, a warning about
-// XSS will occur in the console. I opted to
-// disable it since the code block is only
-// a raw string and not 'unescaped html'
-// as the warning seems to think.
-hljs.configure({
-  ignoreUnescapedHTML: true
-})
+export const metadata: Metadata = {
+    title: "Javi M. | Coder / Programmer",
+    description: "Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site.",
+    viewport: "width=device-width, initial-scale=1",
+    robots: "all",
+    openGraph: {
+        title: "Javi M. | Coder / Programmer",
+        description: "Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site."
+    }
+}
 
-hljs.registerLanguage('rust', rs)
-
-export default function Home() {
-
-  useEffect(() => {
-    hljs.highlightAll()
-  }, [])
+export default function HomePage() {
 
   return (
     <>
-      <Head>
-        <title>Javi M. | Coder / Programmer</title>
-        <meta name="description" content="Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="all" />
-        <meta property="og:title" content="Javi M. | Coder / Programmer"/>
-        <meta property="og:description" content="Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site."/>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <header className={`${styles.topheader} ${inconsolata.className}`}>
         <Image
         src="/profile1_nodata_site.jpg"
@@ -67,19 +51,6 @@ export default function Home() {
           <p>
             Looking to contact? Fire an email to &lt;<strong>javier.martinezbz@gmail.com</strong>&gt;
           </p>
-        </section>
-        <section>
-          <pre>
-            <code className="rust">
-{`fn main() {
-    let z: i32 = 2772;
-    println!("The Lucky Hex: {}", format!("0x{:X}", z));
-}
-
->> The Lucky Hex: 0xAD4
-`}
-            </code>
-          </pre>
         </section>
       </main>
       <footer className={`${styles.footer} ${inconsolata.className}`}>
