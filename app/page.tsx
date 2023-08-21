@@ -6,12 +6,12 @@ import styles from '@/styles/Home.module.css'
 const inconsolata = Inconsolata({ subsets: ["latin"], weight: "400", style: "normal" })
 
 export const metadata: Metadata = {
-    title: "Javi M. | JMProgrammingHub",
+    title: "Javi M. | JMZCoder",
     description: "Javier Martinez (@hoogmin) | Coder/Programmer. Freelance Site.",
     viewport: "width=device-width, initial-scale=1",
     robots: "all",
     openGraph: {
-        title: "Javi M. | JMProgrammingHub",
+        title: "Javi M. | JMZCoder",
         description: "Javier Martinez (@hoogmin) | Coder/Programmer. Freelance Site."
     }
 }
@@ -53,9 +53,6 @@ export default function HomePage() {
           </p>
         </section>
       </main>
-      <footer className={`${styles.footer} ${inconsolata.className}`}>
-        <small>Copyright &copy; 2023 Javier Martinez</small>
-      </footer>
     </>
   )
 }

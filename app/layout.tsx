@@ -1,5 +1,10 @@
 import '@/styles/globals.css'
 import Navibar from '@/components/Navibar'
+import CoolFooter from '@/components/CoolFooter'
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import { config } from "@fortawesome/fontawesome-svg-core"
+
+config.autoAddCss = false
 
 export default function RootLayout({
     // Layouts must accept a children prop.
@@ -13,6 +18,7 @@ export default function RootLayout({
             <body>
                 <Navibar/>
                 {children}
+                <CoolFooter/>
             </body>
         </html>
     )
