@@ -1,3 +1,5 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 :root {
   --max-width: 1100px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -16,10 +18,5 @@ body {
 
 body {
   color: var(--foreground-color, #000);
-  background: linear-gradient(112.1deg, rgb(255, 255, 255) 11.4%, rgb(235, 235, 235) 70.2%);
-}
-
-a {
-  color: #08b305;
-  text-decoration: underline;
+  background: linear-gradient(112.1deg, rgb(255, 255, 255) 11.4%, rgb(180, 180, 180) 70.2%);
 }

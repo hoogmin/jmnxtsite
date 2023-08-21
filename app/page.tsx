@@ -6,13 +6,13 @@ import styles from '@/styles/Home.module.css'
 const inconsolata = Inconsolata({ subsets: ["latin"], weight: "400", style: "normal" })
 
 export const metadata: Metadata = {
-    title: "Javi M. | Coder / Programmer",
-    description: "Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site.",
+    title: "Javi M. | JMProgrammingHub",
+    description: "Javier Martinez (@hoogmin) | Coder/Programmer. Freelance Site.",
     viewport: "width=device-width, initial-scale=1",
     robots: "all",
     openGraph: {
-        title: "Javi M. | Coder / Programmer",
-        description: "Javier Martinez (@hoogmin) | Coder/Programmer. Personal Site."
+        title: "Javi M. | JMProgrammingHub",
+        description: "Javier Martinez (@hoogmin) | Coder/Programmer. Freelance Site."
     }
 }
 
@@ -20,7 +20,7 @@ export default function HomePage() {
 
   return (
     <>
-      <header className={`${styles.topheader} ${inconsolata.className}`}>
+      <div className={`${styles.topheader} ${inconsolata.className}`}>
         <Image
         src="/profile1_nodata_site.jpg"
         alt="Javi Profile Picture"
@@ -31,7 +31,7 @@ export default function HomePage() {
         />
         <h2 className={styles.topheaderitem}>Javier Martinez</h2>
         <h4 className={styles.topheaderitem}>Code, Software, and Technology</h4>
-      </header>
+      </div>
       <main className={`${styles.main} ${inconsolata.className}`}>
         <section>
           <p>
