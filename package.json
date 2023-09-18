@@ -1,7 +1,12 @@
 {
   "name": "jmnxtsite",
-  "version": "0.1.0",
+  "description": "My personal site.",
+  "version": "1.0.0",
   "private": true,
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Javier Martinez"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

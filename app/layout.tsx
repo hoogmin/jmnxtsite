@@ -3,6 +3,13 @@ import Navibar from '@/components/Navibar'
 import CoolFooter from '@/components/CoolFooter'
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
+import { Source_Code_Pro } from "next/font/google"
+
+const sourceCodePro = Source_Code_Pro({
+    subsets: ["latin"],
+    weight: "400",
+    style: "normal"
+})
 
 config.autoAddCss = false
 
@@ -15,7 +22,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>
+            <body className={sourceCodePro.className}>
                 <Navibar/>
                 {children}
                 <CoolFooter/>
