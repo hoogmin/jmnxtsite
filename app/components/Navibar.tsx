@@ -12,7 +12,7 @@ const Navibar = () => {
     return (
         <Navbar bg="transparent" expand="lg">
             <Container>
-                <Link href="/" className="navbar-brand">JMZCoder</Link>
+                <Link href="/" className="navbar-brand">Javi M.</Link>
 
                 {/* Hamburger menu for mobile */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>

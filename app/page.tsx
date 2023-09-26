@@ -6,15 +6,16 @@ import styles from '@/styles/Home.module.css'
 import { Container, Row, Col } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Javi M. | JMZCoder",
+  title: "Home | Javi M.",
   description: "Javier Martinez (@hoogmin) | Coder/Programmer.",
   viewport: "width=device-width, initial-scale=1",
   robots: "all",
   openGraph: {
-    title: "Javi M. | JMZCoder",
+    title: "Home | Javi M.",
     description: "Javier Martinez (@hoogmin) | Coder/Programmer."
   }
 }
@@ -55,7 +56,7 @@ export default function HomePage() {
                 for checking out my site. I built it using Next.js and TypeScript. Feel free to check out
                 other things I have worked on in the <Link href="/projects"><FontAwesomeIcon icon={faCodeBranch}/>projects</Link> section.
               </p>
-              <h2>Contact</h2>
+              <h2>Contact&#47;Social</h2>
               <ul>
                 <li>
                 <FontAwesomeIcon
@@ -63,6 +64,13 @@ export default function HomePage() {
                 style={{ marginRight: 5 }}
                 />
                   Email: javier.martinezbz@gmail.com
+                </li>
+                <li>
+                <FontAwesomeIcon
+                icon={faGithub}
+                style={{ marginRight: 5 }}
+                />
+                  GitHub: <a href="https://github.com/hoogmin" target="_blank" rel="noopener noreferrer">@hoogmin</a>
                 </li>
               </ul>
             </div>

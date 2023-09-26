@@ -7,6 +7,8 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-color: #000;
+  --button-default-color: #008000;
+  --button-default-hovercolor: #004000;
 }
 
 html,
@@ -27,7 +29,46 @@ body {
 footer {
   background: transparent;
   color: var(--foreground-color, #000);
-  padding: 3px;
+  padding: 10px;
   margin-top: auto;
   text-align: center;
+}
+
+.page-basic-heading {
+  margin: 10px;
+  text-align: center;
+}
+
+.centered-list {
+  margin: 10px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.centered-list li {
+  padding-bottom: 10px;
+  font-size: 1.3vw;
+}
+
+@media (max-width: 1000px) {
+  .centered-list li {
+    padding-bottom: 20px;
+    font-size: 2vw;
+  }
+}
+
+.button-hyperlink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-default-color, #008000);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-hyperlink:hover {
+  background-color: var(--button-default-hovercolor, #004000);
 }
