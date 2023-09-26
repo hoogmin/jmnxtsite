@@ -1,9 +1,6 @@
-"use client"
-
 import { Metadata } from 'next'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import { Container, Row, Col } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -24,9 +21,9 @@ export default function HomePage() {
 
   return (
     <>
-      <Container style={{ marginTop: 100 }}>
-        <Row>
-          <Col md={4} className="text-center">
+      <main className="container" style={{ marginTop: 52 }}>
+        <div className="row">
+          <div className="col-md-4 text-center">
             <div className="profile-picture">
               <Image
                 src="/profile1_nodata_site.jpg"
@@ -40,8 +37,8 @@ export default function HomePage() {
             <div className="mt-3">
               <h4>Javier M.</h4>
             </div>
-          </Col>
-          <Col md={8}>
+          </div>
+          <div className="col-md-8">
             <div className="mt-3 mt-md-0">
               <h2>About Me</h2>
               <p>
@@ -74,9 +71,9 @@ export default function HomePage() {
                 </li>
               </ul>
             </div>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </main>
     </>
   )
 }
