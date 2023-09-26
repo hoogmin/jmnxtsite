@@ -1,6 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons"
 import Link from "next/link"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Projects | Javi M.",
+    description: "Projects | Javier Martinez (@hoogmin) | Coder/Programmer.",
+    viewport: "width=device-width, initial-scale=1",
+    robots: "all",
+    openGraph: {
+        title: "Projects | Javi M.",
+        description: "Projects | Javier Martinez (@hoogmin) | Coder/Programmer."
+    }
+}
 
 const ProjectsPage = () => {
     return (
@@ -12,10 +24,10 @@ const ProjectsPage = () => {
                 <br />
                 <h6>
                     <a
-                    className="button-hyperlink" 
-                    href="https://github.com/hoogmin" 
-                    target="_blank" 
-                    rel="noopener noreferrer">
+                        className="button-hyperlink"
+                        href="https://github.com/hoogmin"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithubAlt} style={{ marginRight: 5 }} />
                         GitHub
                     </a>

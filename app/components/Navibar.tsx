@@ -5,6 +5,7 @@ import { Navbar, Nav, Container } from "react-bootstrap"
 import { usePathname } from "next/navigation"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHomeAlt, faLaptopCode } from "@fortawesome/free-solid-svg-icons"
+import ThemeFlip from "./ThemeFlip"
 
 const Navibar = () => {
     const pathname = usePathname()
@@ -13,6 +14,7 @@ const Navibar = () => {
         <Navbar bg="transparent" expand="lg">
             <Container>
                 <Link href="/" className="navbar-brand">Javi M.</Link>
+                <ThemeFlip/>
 
                 {/* Hamburger menu for mobile */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
