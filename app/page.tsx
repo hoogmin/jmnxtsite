@@ -42,7 +42,7 @@ export default function HomePage() {
             <div className="mt-3 mt-md-0">
               <h2>About Me</h2>
               <p>
-                Welcome. I'm Javi. I like things coding and technology related. I mainly do
+                Welcome. I&apos;m Javi. I like things coding and technology related. I mainly do
                 web development &#40;JavaScript/TypeScript, React, etc&#41;. I also like Python
                 and PowerShell, Both of which I have used for general automation. GNU/Linux is an
                 operating system I have been passionate about since my teens and even used it as my
