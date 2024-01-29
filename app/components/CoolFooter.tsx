@@ -1,7 +1,7 @@
 const CoolFooter = () => {
     return (
         <footer>
-            <p>&copy; {new Date().getFullYear()} Javier Martinez</p>
+            <p>&copy; 2024 Javier Martinez</p>
         </footer>
     )
 }

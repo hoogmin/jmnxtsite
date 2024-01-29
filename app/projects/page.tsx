@@ -51,7 +51,11 @@ const ProjectsPage = () => {
                     </li>
                     <li>
                         <a href="https://www.infinityrfg.net" target="_blank" rel="noopener noreferrer">Infinity Roofing &amp; Sheet Metal</a>
-                        : Website for a roofing company created with a content management system.
+                        : Website for a roofing company created with a content management system &#40;Wix&#41;.
+                    </li>
+                    <li>
+                        <a href="https://github.com/hoogmin/arkaclone" target="_blank" rel="noopener noreferrer">Arkaclone</a>
+                        : A 3D clone of the classic game Arkanoid/Break The Bricks built with three.js playable in the browser.
                     </li>
                     <li>
                         <Link href="/" target="_blank" rel="noopener noreferrer">My own site</Link>
