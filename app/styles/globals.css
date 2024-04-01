@@ -97,3 +97,19 @@ footer {
   border: none;
   margin-right: 9px;
 }
+
+.portfolio-label {
+  color: #00ff00;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.portfolio-label:hover {
+  text-decoration: underline;
+}
+
+.portfolio-description {
+  color: #00ff00;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
