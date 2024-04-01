@@ -66,7 +66,7 @@ const PortfolioCarousel = () => {
                 <Carousel.Item>
                     <img src="/portfolio/arkaclone2.png" className="d-block w-100" alt="Innotech Security, Inc."/>
                     <Carousel.Caption>
-                        <a className="portfolio-label" href="https://arkaclone.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <a className="portfolio-label" href="https://github.com/hoogmin/arkaclone" target="_blank" rel="noopener noreferrer">
                             <h3>Arkaclone</h3>
                         </a>
                         <p className="portfolio-description">

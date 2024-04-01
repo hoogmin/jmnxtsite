@@ -103,6 +103,7 @@ footer {
   font-weight: bold;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
   text-decoration: none;
+  font-size: 1vw;
 }
 
 .portfolio-label:hover {
@@ -112,4 +113,11 @@ footer {
 .portfolio-description {
   color: #00ff00;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  font-size: 1vw;
+}
+
+@media (max-width: 1036px) {
+  .portfolio-description {
+    display: none;
+  }
 }
