@@ -43,7 +43,7 @@ export default function HomePage() {
             <div className="mt-3 mt-md-0">
               <h2>About Me</h2>
               <p>
-                Welcome. I'm Javier. I am a freelance web developer whose mission is to
+                Welcome. I&apos;m Javier. I am a freelance web developer whose mission is to
                 take your vision and make it reality. I am Full-Stack, meaning I can handle
                 tasks from how your website/webapp &#40;Front-End&#41; looks to the code powering its functionality behind the
                 scenes &#40;Back-End&#41;. I have experience building static websites, backend APIs, and complete web applications.
@@ -85,7 +85,7 @@ export default function HomePage() {
                 <li>Unix-Like Systems like Linux and FreeBSD</li>
                 <li>Databases: Relational and Non-relational such as MySQL and MongoDB</li>
                 <li>
-                  Punctual, responsive, and honest. I show you my progress and I don't flake on people.
+                  Punctual, responsive, and honest. I show you my progress and I don&apos;t flake on people.
                   If there is an issue, you can count on me being communicative about it.
                 </li>
               </ul>
