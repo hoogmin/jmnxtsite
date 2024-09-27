@@ -55,7 +55,7 @@ const PortfolioCarousel = () => {
                 <Carousel.Item>
                     <img src="/portfolio/jmnxtsite.png" className="d-block w-100" alt="Innotech Security, Inc."/>
                     <Carousel.Caption>
-                        <a className="portfolio-label" href="https://jmnxtsite.vercel.app" target="_blank" rel="noopener noreferrer">
+                        <a className="portfolio-label" href="https://github.com/hoogmin/jmnxtsite" target="_blank" rel="noopener noreferrer">
                             <h3>Personal Website</h3>
                         </a>
                         <p className="portfolio-description">
