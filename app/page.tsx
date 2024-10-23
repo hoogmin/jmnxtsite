@@ -3,17 +3,26 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import Link from "next/link"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jmnxtsite.vercel.app"),
   title: "Home | Javier M.",
-  description: "Javier Martinez (@hoogmin) | Freelance Coder",
+  description: "Javier Martinez (@hoogmin) | Full-Stack Developer",
   viewport: "width=device-width, initial-scale=1",
-  robots: "all",
+  robots: "index, follow",
   openGraph: {
     title: "Home | Javier M.",
-    description: "Javier Martinez (@hoogmin) | Freelance Coder"
+    description: "Javier Martinez (@hoogmin) | Full-Stack Developer",
+    images: "https://jmnxtsite.vercel.app/portfolio/jmnxtsite.png"
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@hexjavi",
+    title: "Javi M. Full-Stack Dev Portfolio",
+    description: "Javier M's full-stack developer porfolio site.",
+    images: "https://jmnxtsite.vercel.app/portfolio/jmnxtsite.png"
   }
 }
 
@@ -36,51 +45,54 @@ export default function HomePage() {
             </div>
             <div className="mt-3">
               <h4>Javier M.</h4>
-              <p>Freelance Web Developer</p>
+              <p>Full-Stack Web Developer</p>
             </div>
           </div>
           <div className="col-md-8">
             <div className="mt-3 mt-md-0">
               <h2>About Me</h2>
               <p>
-                Welcome. I&apos;m Javier. I am a freelance web developer whose mission is to
-                take your vision and make it reality. I am Full-Stack, meaning I can handle
-                tasks from how your website/webapp &#40;Front-End&#41; looks to the code powering its functionality behind the
-                scenes &#40;Back-End&#41;. I have experience building static websites, backend APIs, and complete web applications.
-                I am also very familiar with Linux and creating API integrations between different applications. You can find some
-                of the projects I have worked on in the <Link href="/projects"><FontAwesomeIcon icon={faCodeBranch}/>Projects</Link> page.
-                Interested? Email me at <a href="mailto:javier.martinezbz@gmail.com">javier.martinezbz@gmail.com</a> or message me on&nbsp;
-                <a href="https://www.upwork.com/freelancers/~01fae346cb0e37280b" rel="noopener noreferrer" target="_blank">Upwork</a>.
-                Thanks!
+                Welcome! I&apos;m Javier, a passionate full-stack web developer.
+                I specialize in both MERN &#40;MongoDB, Express, React, Node.js&#41; and C#/ASP.NET technologies, allowing me to tackle projects from front-end to back-end seamlessly. As a self-taught engineer, I am committed to lifelong learning and continuously honing my skills.
+
+                My journey began in game development, which sparked my love for coding and led me to pursue web development professionally. I thrive on building dynamic, user-friendly applications that solve real-world problems.
+
+                Additionally, I have a keen interest in Unix-like operating systems, including Linux and FreeBSD, which fuels my drive for efficient and scalable solutions.
+
+                Thank you for visiting my portfolio! If you&apos;re interested in collaborating or have any questions, feel free to reach out using the contact information below.
               </p>
-              <h2>Contact&#47;Social</h2>
+              <h2>Contact Me</h2>
               <ul>
                 <li>
-                <FontAwesomeIcon
-                icon={faEnvelope}
-                style={{ marginRight: 5 }}
-                />
-                  Email: javier.martinezbz@gmail.com
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    style={{ marginRight: 5 }}
+                  />
+                  Email: javiermzswe@protonmail.com
                 </li>
                 <li>
-                <FontAwesomeIcon
-                icon={faGithub}
-                style={{ marginRight: 5 }}
-                />
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{ marginRight: 5 }}
+                  />
                   GitHub: <a href="https://github.com/hoogmin" target="_blank" rel="noopener noreferrer">@hoogmin</a>
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faXTwitter}
+                    style={{ marginRight: 5 }}
+                  />
+                  X: <a href="https://x.com/hexjavi" target="_blank" rel="noopener noreferrer">@hexjavi</a>
                 </li>
               </ul>
               <h2>Skills Overview</h2>
               <ul>
-                <li>HTML/CSS/JS, JavaScript/TypeScript, React.js, Next.js, Bootstrap</li>
+                <li>HTML/CSS/JS, JavaScript/TypeScript, React.js, Next.js, Bootstrap, Tailwind CSS</li>
                 <li>Node.js, Express</li>
-                <li>C#, ASP.NET Core, Razor Pages</li>
+                <li>C#, ASP.NET, Razor Pages</li>
                 <li>Unix-Like Systems like Linux and FreeBSD</li>
                 <li>Databases: Relational and Non-relational such as MySQL and MongoDB</li>
-                <li>
-                  Punctual, responsive, and honest. I show you my progress and I don&apos;t flake on people.
-                  If there is an issue, you can count on me being communicative about it.
-                </li>
+                <li>Soft-skills such as punctuality, responsiveness, and honesty</li>
               </ul>
             </div>
           </div>
