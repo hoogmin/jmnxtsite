@@ -48,7 +48,7 @@ const Navibar = () => {
                             icon={faCube}
                             style={{ marginRight: 5 }}
                             />
-                            Javi's Software Cube
+                            Javi&apos;s Software Cube
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
