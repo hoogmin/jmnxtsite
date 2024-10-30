@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faXTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -83,6 +83,13 @@ export default function HomePage() {
                     style={{ marginRight: 5 }}
                   />
                   X: <a href="https://x.com/hexjavi" target="_blank" rel="noopener noreferrer">@hexjavi</a>
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faLinkedinIn}
+                    style={{ marginRight: 5 }}
+                  />
+                  LinkedIn: <a href="https://www.linkedin.com/in/javier-martinez-developer-fsfl72/" target="_blank" rel="noopener noreferrer">javier-martinez-developer-fsfl72</a>
                 </li>
               </ul>
               <h2>Skills Overview</h2>

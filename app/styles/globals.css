@@ -104,6 +104,7 @@ footer {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   font-size: 1vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-label:hover {
@@ -114,6 +115,7 @@ footer {
   color: #00ff00;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
   font-size: 1vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1036px) {
