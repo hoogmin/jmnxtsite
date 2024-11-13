@@ -78,6 +78,18 @@ const PortfolioCarousel = () => {
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img src="/portfolio/pollarstar.png" className="d-block w-100" alt="Innotech Security, Inc."/>
+                    <Carousel.Caption>
+                        <a className="portfolio-label" href="https://github.com/hoogmin/pollarstar" target="_blank" rel="noopener noreferrer">
+                            <h3>PollarStar</h3>
+                        </a>
+                        <p className="portfolio-description">
+                        A modern poll-sharing demo app that allows for users to create and share voting polls freely.
+                        Complete full-stack app built using the MERN stack along with Next.js and Redux. Inspired by StrawPoll.
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
         </>
     )
