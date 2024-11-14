@@ -2,9 +2,8 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faXTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import Link from "next/link"
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jmnxtsite.vercel.app"),
@@ -76,13 +75,6 @@ export default function HomePage() {
                     style={{ marginRight: 5 }}
                   />
                   GitHub: <a href="https://github.com/hoogmin" target="_blank" rel="noopener noreferrer">@hoogmin</a>
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faXTwitter}
-                    style={{ marginRight: 5 }}
-                  />
-                  X: <a href="https://x.com/hexjavi" target="_blank" rel="noopener noreferrer">@hexjavi</a>
                 </li>
                 <li>
                   <FontAwesomeIcon
