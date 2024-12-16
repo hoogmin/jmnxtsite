@@ -3,26 +3,19 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jmnxtsite.vercel.app"),
   title: "Home | Javier M.",
-  description: "Javier Martinez (@hoogmin) | Full-Stack Developer",
+  description: "Javier Martinez (@hoogmin) | Software Engineer",
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
     title: "Home | Javier M.",
-    description: "Javier Martinez (@hoogmin) | Full-Stack Developer",
+    description: "Javier Martinez (@hoogmin) | Software Engineer",
     images: "https://jmnxtsite.vercel.app/portfolio/jmnxtsite.png"
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@hexjavi",
-    title: "Javi M. Full-Stack Dev Portfolio",
-    description: "Javier M's full-stack developer porfolio site.",
-    images: "https://jmnxtsite.vercel.app/portfolio/jmnxtsite.png"
-  }
 }
 
 export default function HomePage() {
@@ -44,14 +37,14 @@ export default function HomePage() {
             </div>
             <div className="mt-3">
               <h4>Javier M.</h4>
-              <p>Full-Stack Web Developer</p>
+              <p>Software Engineer</p>
             </div>
           </div>
           <div className="col-md-8">
             <div className="mt-3 mt-md-0">
               <h2>About Me</h2>
               <p>
-                Welcome! I&apos;m Javier, a passionate full-stack web developer.
+                Welcome! I&apos;m Javier, a passionate software engineer.
                 I specialize in both MERN &#40;MongoDB, Express, React, Node.js&#41; and C#/ASP.NET technologies, allowing me to tackle projects from front-end to back-end seamlessly. As a self-taught engineer, I am committed to lifelong learning and continuously honing my skills.
 
                 My journey began in game development, which sparked my love for coding and led me to pursue web development professionally. I thrive on building dynamic, user-friendly applications that solve real-world problems.
@@ -75,13 +68,6 @@ export default function HomePage() {
                     style={{ marginRight: 5 }}
                   />
                   GitHub: <a href="https://github.com/hoogmin" target="_blank" rel="noopener noreferrer">@hoogmin</a>
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faLinkedinIn}
-                    style={{ marginRight: 5 }}
-                  />
-                  LinkedIn: <a href="https://www.linkedin.com/in/javier-martinez-developer-fsfl72/" target="_blank" rel="noopener noreferrer">javier-martinez-developer-fsfl72</a>
                 </li>
               </ul>
               <h2>Skills Overview</h2>
